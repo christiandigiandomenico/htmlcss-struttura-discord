@@ -86,3 +86,38 @@ section .whitebackground .mellowblock {
 }
 
 /* Fine seconda section*/
+
+/* Terza section */
+
+.greybackground {
+    background-color: #d3d3d3;
+}
+
+section .greybackground {
+    height: 600px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+section .greybackground .azureblock {
+    height: 500px;
+    background-color: #1e90ff;
+
+    flex-grow: 1;
+    max-width: 715px;
+}
+
+section .greybackground .mellowblock {
+    height: 500px;
+    width: 475px;
+    background-color: #ffc0cb;
+}
+
+.greybackground>* {
+    border: 1px dotted black;
+}
+
+/* Fine terza section */
