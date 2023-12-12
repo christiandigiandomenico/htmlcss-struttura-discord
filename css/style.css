@@ -45,6 +45,8 @@ section .bluebackground {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-bottom: 2px solid #aed8e7;
 }
 
 section .bluebackground .pinkblock {
@@ -139,3 +141,52 @@ section .greybackground .mellowblock {
 }
 
 /* Fine quinta section */
+
+/* Sesta section */
+.charcoalbackground {
+    height: 630px;
+    background-color: #23272a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid #9fa0a2;
+}
+
+.tabmain {
+    flex-grow: 1;
+    max-width: 360px;
+    height: 575px;
+    background-color: #f08080;
+}
+
+.tab2 {
+    width: 210px;
+    height: 575px;
+    background-color: #20b2aa;
+}
+
+.tab3 {
+    width: 210px;
+    height: 575px;
+    background-color: #20b2aa;
+}
+
+.tab4 {
+    width: 210px;
+    height: 575px;
+    background-color: #20b2aa;
+}
+
+.tab5 {
+    width: 210px;
+    height: 575px;
+    background-color: #20b2aa;
+}
+
+.charcoalbackground>* {
+    border: 1px dotted black;
+}
+
+/* Fine sesta section */
