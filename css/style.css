@@ -190,3 +190,33 @@ section .greybackground .mellowblock {
 }
 
 /* Fine sesta section */
+
+/* Inizio footer */
+footer .footerbackground {
+    height: 110px;
+    background-color: #23272a;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+footer .footerquadrant {
+    height: 80px;
+    width: 1190px;
+    background-color: #7fffd4;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerquadrant>* {
+    padding: 5px 10px;
+    background-color: #ffb6c1;
+    border: 1px dotted black;
+}
+
+/* Fine footer */
