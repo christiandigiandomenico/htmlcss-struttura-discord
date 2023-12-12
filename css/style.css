@@ -39,7 +39,7 @@
 
 /* Prima section */
 section .bluebackground {
-    height: 500px;
+    padding: 50px;
     background-color: #00008b;
 
     display: flex;
@@ -62,7 +62,7 @@ section .bluebackground .pinkblock {
 
 /* Seconda section*/
 section .whitebackground {
-    height: 600px;
+    padding: 50px;
 
     display: flex;
     justify-content: center;
@@ -95,7 +95,7 @@ section .whitebackground .mellowblock {
 }
 
 section .greybackground {
-    height: 600px;
+    padding: 50px;
 
     display: flex;
     flex-direction: row-reverse;
@@ -125,7 +125,7 @@ section .greybackground .mellowblock {
 
 /* Quinta section */
 .lightgreybackground {
-    height: 1000px;
+    padding: 50px;
     background-color: #d3d3d3;
 
     display: flex;
@@ -144,7 +144,7 @@ section .greybackground .mellowblock {
 
 /* Sesta section */
 .charcoalbackground {
-    height: 630px;
+    padding: 50px;
     background-color: #23272a;
 
     display: flex;
