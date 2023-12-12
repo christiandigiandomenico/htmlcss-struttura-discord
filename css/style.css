@@ -56,4 +56,33 @@ section .bluebackground .pinkblock {
     border: 1px dotted black;
 }
 
-/* Fine Prima section*/
+/* Fine prima section*/
+
+/* Seconda section*/
+section .whitebackground {
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .whitebackground .azureblock {
+    height: 500px;
+    background-color: #1e90ff;
+
+    flex-grow: 1;
+    max-width: 715px;
+}
+
+section .whitebackground .mellowblock {
+    height: 500px;
+    width: 475px;
+    background-color: #ffc0cb;
+}
+
+.whitebackground>* {
+    border: 1px dotted black;
+}
+
+/* Fine seconda section*/
