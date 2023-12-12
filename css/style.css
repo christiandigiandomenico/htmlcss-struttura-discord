@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: center;
@@ -33,3 +34,26 @@
     width: 240px;
     text-align: right;
 }
+
+/* Fine header */
+
+/* Prima section */
+section .bluebackground {
+    height: 500px;
+    background-color: #00008b;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .bluebackground .pinkblock {
+
+    height: 400px;
+    width: 900px;
+
+    background-color: #ee82ee;
+    border: 1px dotted black;
+}
+
+/* Fine Prima section*/
