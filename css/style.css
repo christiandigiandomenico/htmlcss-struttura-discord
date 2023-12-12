@@ -154,35 +154,17 @@ section .greybackground .mellowblock {
     border-bottom: 2px solid #9fa0a2;
 }
 
+.charcoalbackground>* {
+    width: 210px;
+    height: 575px;
+    background-color: #20b2aa;
+}
+
 .tabmain {
     flex-grow: 1;
     max-width: 360px;
     height: 575px;
     background-color: #f08080;
-}
-
-.tab2 {
-    width: 210px;
-    height: 575px;
-    background-color: #20b2aa;
-}
-
-.tab3 {
-    width: 210px;
-    height: 575px;
-    background-color: #20b2aa;
-}
-
-.tab4 {
-    width: 210px;
-    height: 575px;
-    background-color: #20b2aa;
-}
-
-.tab5 {
-    width: 210px;
-    height: 575px;
-    background-color: #20b2aa;
 }
 
 .charcoalbackground>* {
