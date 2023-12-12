@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+
+    background-color: #add8e6;
+}
+
+.header>* {
+    border: 1px dotted black;
+    padding: 10px;
+    background-color: #daa520;
+}
+
+.logo {
+    width: 240px;
+}
+
+.links {
+    width: 714px;
+    text-align: center;
+}
+
+.login {
+    width: 240px;
+    text-align: right;
+}
